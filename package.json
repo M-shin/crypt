@@ -1,0 +1,24 @@
+{
+  "name": "crypt",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A lightweight application for password protecting your files",
+  "main": "console.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "./console.js"
+  },
+  "author": "Michael Shin",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "command-line-args": "^4.0.6",
+    "command-line-commands": "^2.0.0",
+    "command-line-usage": "^4.0.0",
+    "jsonfile": "^3.0.1",
+    "prompt": "^1.0.0",
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-security": "^1.4.0"
+  }
+}
