@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "A lightweight application for password protecting your files",
-  "main": "console.js",
+  "main": "crypt.js",
   "scripts": {
     "lint": "eslint .",
-    "start": "./console.js"
+    "start": "./crypt.js"
   },
   "author": "Michael Shin",
   "dependencies": {
