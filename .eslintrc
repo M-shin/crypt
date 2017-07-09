@@ -1,0 +1,15 @@
+{
+  root: true,
+  extends: 'godaddy',
+  rules: {
+    // needed for node es6 / es5 hybrid
+    strict: 0,
+    space-before-function-paren: 0,
+    max-statements: 0,
+    no-sync: 0,
+    no-console: 0,
+    no-process-exit: 0,
+    complexity: 0,
+    generator-star-spacing: ["error", {"before": true, "after": true}]
+  }
+}
