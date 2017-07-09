@@ -1,1 +1,5 @@
+# Project dependencies
 node_modules/
+
+# State file
+state.json
